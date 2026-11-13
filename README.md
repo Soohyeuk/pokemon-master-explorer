@@ -82,17 +82,9 @@ The proposal's Layout A places a large scatterplot beside two grouped summary ch
 
 Attack, Defense, Generation, and Total use position; primary type uses categorical color; HP uses point area with a size key; mean Speed uses bar length from zero. Box plots show the middle 50%, median, whiskers within 1.5 IQR, and outlier dots.
 
-## Formatting code
-
-These optional development tools are not needed to run the app:
-
-```sh
-uvx ruff format app.py charts.py data.py layout.py
-npx prettier@3.6.2 --write assets/style.css
-```
 
 ## Status and acknowledgements
 
 This is the working prototype, not the final submission. No peer feedback or usability testing is claimed; final reports and accessibility tuning remain unfinished.
 
-Charts use [Plotly Dash](https://dash.plotly.com/) and [Plotly](https://plotly.com/python/), installed through `requirements.txt`. OpenAI Codex assisted with implementation, documentation, and verification based on the submitted proposal.
+Charts use [Plotly Dash](https://dash.plotly.com/) and [Plotly](https://plotly.com/python/), installed through `requirements.txt`. OpenAI Codex GPT-6 Astra Medium helped with MD file writing, CSS styling, and basic Flask syntax. 
